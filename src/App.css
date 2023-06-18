@@ -152,6 +152,14 @@
 }
 @media (max-width: 600px) {
   /* Estilos específicos para telas menores que 600px */
+  .legenda{
+    width: 150px;
+    height: 150px;
+   
+    position: fixed;
+    left: 10px;
+    top: 10px;
+  }
   .mapa{
     width: 250px;
     margin-bottom: 5px;
