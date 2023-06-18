@@ -72,6 +72,24 @@ export default function Tela(){
     }
 return( <> 
     <div className="body">
+    <div className='legenda'>
+        <div className='leg'>
+        <div className='orange'></div> <p>trajetória de vida</p> 
+        </div>
+        <div className='leg'> 
+            <div className='red'></div> <p>contato</p>
+        </div>
+        <div className='leg'>
+            <div className='pink'></div> <p>driven</p> 
+        </div>
+        <div className='leg'>
+           <div className='green'></div> <p>habilidades</p> 
+        </div>
+        <div className='leg'>
+            <div className='blueviolet'></div><p>currículo</p>
+        </div>
+        
+    </div>
         <div className='texto'>
             <h3>Daniel Moura</h3>
         </div>

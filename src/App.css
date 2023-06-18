@@ -104,3 +104,102 @@
   border-radius: 90px;
   margin-bottom: 50px;
 }
+.legenda{
+  width: 150px;
+  height: 150px;
+  
+  position: fixed;
+  right: 0px;
+	top: 10px;
+}
+.red{
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.orange{
+  width: 25px;
+  height: 25px;
+  background-color: orange;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.pink{
+  width: 25px;
+  height: 25px;
+  background-color: pink;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.green{
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.blueviolet{
+  width: 25px;
+  height: 25px;
+  background-color: blueviolet;
+  margin-right: 5px;
+  border-radius: 4px;
+}
+.leg{
+  display: flex;
+}
+@media (max-width: 600px) {
+  /* Estilos específicos para telas menores que 600px */
+  .mapa{
+    width: 250px;
+    margin-bottom: 5px;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .bloco{
+    width: 25px;
+    height: 25px;
+    background-color: blue;
+  }
+  .jogador{
+    width: 25px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 50px;
+  }
+  .contatos{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+  }
+  .historia{
+    width: 25px;
+    height: 25px;
+    background-color: orange;
+  }
+  .driven{
+    width: 25px;
+    height: 25px;
+    background-color: pink;
+  }
+  .curriculo{
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+  }
+  .habilidades{
+    width: 25px;
+    height: 25px;
+    background-color: green;
+  }
+  .pd{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+  }
+  
+}
