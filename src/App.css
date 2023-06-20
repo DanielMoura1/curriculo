@@ -118,7 +118,7 @@
 .caixasSetas{
   width: 150px;
   height: 150px;
-  background: yellow;
+ 
   position: relative;
 }
 .botaocima{
@@ -156,12 +156,13 @@
   margin-bottom: 50px;
 }
 .legenda{
-  width: 150px;
+  width: 160px;
   height: 150px;
-  
+
   position: fixed;
   right: 0px;
 	top: 10px;
+
 }
 .red{
   width: 25px;
@@ -200,6 +201,9 @@
 }
 .leg{
   display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+  
 }
 @media (max-width: 600px) {
   /* Estilos específicos para telas menores que 600px */
@@ -261,4 +265,50 @@
     background-color: black;
   }
   
+}
+@media (max-width: 300px) {
+  .legenda{
+    width: 150px;
+    height: 150px;
+    
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-size: 10px;
+  }
+  .red{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  .orange{
+    width: 15px;
+    height: 15px;
+    background-color: orange;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  .pink{
+    width: 15px;
+    height: 15px;
+    background-color: pink;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  .green{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
+  .blueviolet{
+    width: 15px;
+    height: 15px;
+    background-color: blueviolet;
+    margin-right: 5px;
+    border-radius: 4px;
+  }
 }
