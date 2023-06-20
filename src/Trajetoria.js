@@ -5,7 +5,10 @@ export default function Trajetoria(){
         navigate("/")
     }
     return( <> 
-        <p>trajetória de vida</p>
-        <p onClick={voltar}>voltar</p>
+        <div className='bodyl'>
+            <p>trajetória de vida</p>
+            <p onClick={voltar}>voltar</p>
+        </div>
+        
     </>)
     }

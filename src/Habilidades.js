@@ -5,7 +5,10 @@ export default function Habilidades(){
         navigate("/")
     }
     return( <> 
+     <div className='bodyverde'>
         <p> Habilidades</p>
         <p onClick={voltar}>voltar</p>
+     </div>
+        
     </>)
     }

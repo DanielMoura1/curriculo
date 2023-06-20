@@ -5,8 +5,9 @@ export default function Tela2(){
         navigate("/")
     }
     return( <> 
-        <p>Contato</p>
-        <p onClick={voltar}>voltar</p>
-    
+        <div className='bodyred'>
+            <p>Contato</p>
+            <p onClick={voltar}>voltar</p>
+        </div>
     </>)
 }

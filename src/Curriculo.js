@@ -5,7 +5,10 @@ export default function Curriculo(){
         navigate("/")
     }
     return( <> 
+    <div className='bodyroxo'>
         <p>Curriculo</p>
         <p onClick={voltar}>voltar</p>
+    </div>
+        
     </>)
     }

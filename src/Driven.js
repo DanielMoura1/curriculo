@@ -5,7 +5,10 @@ export default function Driven(){
         navigate("/")
     }
     return( <> 
+    <div className='bodyrosa'>
         <p> Driven</p>
         <p onClick={voltar}>voltar</p>
+    </div>
+        
     </>)
     }

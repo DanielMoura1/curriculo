@@ -1,3 +1,53 @@
+.bodyl{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,#ff9956,#ffce59);
+}
+.bodyred{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,#870305,#f70016);
+}
+.bodyverde{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,#3f4a17,#97a250);
+}
+.bodyroxo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,#282d61,#bb247f,#ef89e4,#282d61);
+}
+.bodyrosa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,#e54c8e,#6c2742);
+}
 .body{
   display: flex;
   align-items: center;
@@ -6,6 +56,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
+  background-image: linear-gradient(to top,#52777c,#ddd1ab);
 }
 .contato{
   height: 30vh;
