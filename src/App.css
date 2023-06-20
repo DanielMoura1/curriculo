@@ -16,7 +16,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to top,#870305,#f70016);
+  background-image: linear-gradient(to top,#870305,#f70015bd);
 }
 .bodyverde{
   display: flex;
