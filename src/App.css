@@ -16,7 +16,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to top,#870305,#f70015bd);
+  background-image: radial-gradient(circle,#f70015ad,#870305);
 }
 .bodyverde{
   display: flex;
@@ -46,7 +46,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to top,#e54c8e,#6c2742);
+  background-image: linear-gradient(to top,#f7d878ff,#f78b7aff);
 }
 .body{
   display: flex;
@@ -56,7 +56,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(to top,#52777c,#ddd1ab);
+  background-image: linear-gradient(-45deg,#52777c,#ddd1ab);
 }
 .contato{
   height: 30vh;
