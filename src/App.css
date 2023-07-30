@@ -17,8 +17,24 @@
   height: 10vh;
  
   justify-content:  space-between;
-  
-  
+}
+.faixa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 20px;
+}
+.faixa2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  width: 100vw;
+  height: 20px;
 }
 .barrahab{
 
