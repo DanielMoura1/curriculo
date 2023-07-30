@@ -17,6 +17,9 @@ export default function Tela(){
         setMap(novoMapa);
         alert(mapa[0][5])
     }
+    function verde(){
+        navigate("/Habilidades")
+    }
     function cima(){
         const novoMapa = [...mapa];
         if(x-1>=0 && novoMapa[x-1][y]=='historia'){
@@ -83,7 +86,7 @@ return( <>
             <div className='pink'></div> <p>driven</p> 
         </div>
         <div className='leg'>
-           <div className='green'></div> <p>habilidades</p> 
+           <div onClick={verde} className='green'></div> <p onClick={verde} >habilidades</p> 
         </div>
         <div className='leg'>
             <div className='blueviolet'></div><p>currículo</p>

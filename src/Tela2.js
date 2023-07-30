@@ -7,7 +7,7 @@ export default function Tela2(){
     return( <> 
         <div className='bodyred'>
             <p>Contato</p>
-            <p onClick={voltar}>voltar</p>
+            <button onClick={voltar}>voltar</button>
         </div>
     </>)
 }

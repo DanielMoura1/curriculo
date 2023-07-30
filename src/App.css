@@ -8,6 +8,57 @@
   height: 100vh;
   background-image: linear-gradient(to top,#ff9956,#ffce59);
 }
+.barraverde{
+  display: flex;
+  
+  align-items: center;
+ 
+  width: 100vw;
+  height: 10vh;
+ 
+  justify-content:  space-between;
+  
+  
+}
+.barrahab{
+
+  width: 100vw;
+  height: 200px;
+  margin-top: 40px;
+}
+.barraTitulo{
+
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+ 
+}
+.barraimg{
+  display: flex;
+  overflow-x:scroll;
+ 
+}
+.barraimg::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.barraimg::-webkit-scrollbar-thumb {
+  background-color: radial-gradient(circle,#f70015ad,#870305);;
+}
+.imgh{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.homeico1{
+  margin-left: 15px;
+}
+.homeico2{
+  margin-right: 35px;
+}
 .bodyred{
   display: flex;
   align-items: center;
@@ -20,13 +71,22 @@
 }
 .bodyverde{
   display: flex;
-  align-items: center;
-  justify-content: center;
+ 
   flex-direction: column;
   position: relative;
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to top,#3f4a17,#97a250);
+}
+.newbodyverde{
+  display: flex;
+ 
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background:rgb(66, 66, 66);
 }
 .bodyroxo{
   display: flex;
