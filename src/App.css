@@ -139,7 +139,7 @@
   width: 500px;
   background-color: #52777c;
   position: fixed;
-  left: 20%;
+  left: 25%;
   top: 25%;
  
 }
@@ -335,6 +335,25 @@
   
 }
 @media (max-width: 600px) {
+  .imgf{
+    width: 150px;
+    height: 150px;
+    border-radius: 90px;
+    margin-left: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .informacao2{
+    height: 400px;
+    width: 410px;
+    position: fixed;
+    left: 0px;
+    top: 25%;
+   
+  }
+  .inftexto{
+    margin-left: 130px;
+  }
   /* Estilos específicos para telas menores que 600px */
   .legenda{
     width: 150px;
