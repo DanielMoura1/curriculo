@@ -105,23 +105,61 @@
   height: 100vh;
   background-image: radial-gradient(circle,#f70015ad,#870305);
 }
+.bodyred2{
+  display: flex;
+  
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #52777c;
+}
+.prenderBarraContatos{
+  position: fixed;
+  right: 0px;
+	top: 0px;
+}
 .barracontatos{
   background-color: #575656;
   width: 100vw;
-  height: 15vh;
+  height: 10vh;
   display: flex;
   
   align-items: center;
- 
+  color: white;
   justify-content:  space-between;
+}
+.barracontatos2{
+  background-color: #575656;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  
+  align-items: center;
+  justify-content:  space-between;
+}
+.tituloContatos{
+  width: 100vw;
+  background-color: #870305;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .boxContatos{
   display: flex;
-  background-color: #52777c;
+ 
   flex-direction: row;
   width: 100vw;
   height: 100vh;
 
+}
+.AWFD{
+  background-color: #ddd1ab;
+  background-color: #ddd1ab;
+  position: fixed;
+  right: 0px;
+	top: 10px;
 }
 .caixaDeContados{
   width: 70vw;
@@ -130,7 +168,6 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #ddd1ab;
 }
 .linhaPretaContado{
   width: 2px;
@@ -141,7 +178,66 @@
 .menuContatos{
   width: 30vw;
   height: 100vh;
-  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(138, 82, 82);
+}
+.menuContatos2{
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ddd1ab;
+}
+.MenuContatoNavegar{
+  width: 30vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+
+}
+.contatoTRAJ{
+  width: 30vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right,#ff9956,#ffce59);
+}
+.contatoDriven{
+  width: 30vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to left,#f7d878ff,#f78b7aff);
+}
+.contatoHabilidade{
+  width: 30vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right,#3f4a17,#97a250);
+}
+.contatoCuri{
+  width: 30vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right,#282d61,#bb247f,#ef89e4);
 }
 .textoContados{
   display: flex;
@@ -155,6 +251,12 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to top,#3f4a17,#97a250);
+}
+.whatsapp{
+  
+  background-image: linear-gradient(-90deg, #53c960,#39ba4b,#2bb140);
+  border-radius: 5px;
+  height: 80px;
 }
 .newbodyverde{
   display: flex;
@@ -376,6 +478,44 @@
   
 }
 @media (max-width: 600px) {
+ 
+  .boxContatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  
+  }
+  .MenuContatoNavegar{
+    display: none;
+  
+  }
+  
+  .linhaPretaContado{
+    width: 100vw;
+    height: 2px;
+    background-color: #575656;
+  }
+  .menuContatos{
+    width: 100vw;
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(138, 82, 82);
+  }
+  .menuContatos2{
+    width: 100vw;
+    height: 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #ddd1ab;
+  }
   .imgf{
     width: 150px;
     height: 150px;
