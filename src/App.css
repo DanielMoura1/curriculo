@@ -98,13 +98,54 @@
 }
 .bodyred{
   display: flex;
-  align-items: center;
-  justify-content: center;
+  
   flex-direction: column;
   position: relative;
   width: 100vw;
   height: 100vh;
   background-image: radial-gradient(circle,#f70015ad,#870305);
+}
+.barracontatos{
+  background-color: #575656;
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  
+  align-items: center;
+ 
+  justify-content:  space-between;
+}
+.boxContatos{
+  display: flex;
+  background-color: #52777c;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+
+}
+.caixaDeContados{
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ddd1ab;
+}
+.linhaPretaContado{
+  width: 2px;
+  height: 100vh;
+  background-color: #575656;
+}
+
+.menuContatos{
+  width: 30vw;
+  height: 100vh;
+  background-color: red;
+}
+.textoContados{
+  display: flex;
+  flex-direction: row;
 }
 .bodyverde{
   display: flex;

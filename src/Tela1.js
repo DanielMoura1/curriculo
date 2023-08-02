@@ -17,8 +17,9 @@ export default function Tela(){
         setMap(novoMapa);
         alert(mapa[0][5])
     }
-    function verde(){
-        navigate("/Habilidades")
+    function verde(lugarir){
+        console.log(lugarir)
+        navigate(lugarir)
     }
     function cima(){
         const novoMapa = [...mapa];
@@ -77,19 +78,19 @@ return( <>
     <div className="body">
     <div className='legenda'>
         <div className='leg'>
-        <div className='orange'></div> <p>trajetória de vida</p> 
+        <div onClick={()=>navigate('/Trajetoria')} className='orange'></div > <p onClick={()=>navigate('/Trajetoria')}>trajetória de vida</p> 
         </div>
         <div className='leg'> 
-            <div className='red'></div> <p>contato</p>
+            <div onClick={()=> navigate('/Tela2')} className='red'></div> <p onClick={()=> navigate('/Tela2')}>contato</p>
         </div>
         <div className='leg'>
-            <div className='pink'></div> <p>driven</p> 
+            <div onClick={()=> navigate('/Driven')} className='pink'></div> <p  onClick={()=> navigate('/Driven')}>driven</p> 
         </div>
         <div className='leg'>
-           <div onClick={verde} className='green'></div> <p onClick={verde} >habilidades</p> 
+           <div onClick={()=> navigate('/Habilidades')} className='green'></div> <p onClick={()=> navigate('/Habilidades')} >habilidades</p> 
         </div>
         <div className='leg'>
-            <div className='blueviolet'></div><p>currículo</p>
+            <div  onClick={()=> navigate('/Curriculo')} className='blueviolet'></div><p onClick={()=> navigate('/Curriculo')}>currículo</p>
         </div>
         
     </div>
@@ -108,9 +109,9 @@ return( <>
             <div className={mapa[0][6]}></div>
             <div className={mapa[0][7]}></div>
             <div className={mapa[0][8]}></div>
-            <div className={mapa[0][9]}></div>
+            <div onClick={()=> navigate('/Tela2')}className={mapa[0][9]}></div>
 
-            <div className={mapa[1][0]}></div>
+            <div onClick={()=> navigate('/Trajetoria')} className={mapa[1][0]}></div>
             <div className={mapa[1][1]}></div>
             <div className={mapa[1][2]}></div>
             <div className={mapa[1][3]}></div>
@@ -143,16 +144,16 @@ return( <>
             <div className={mapa[3][8]}></div>
             <div className={mapa[3][9]}></div>
 
-            <div className={mapa[4][0]}></div>
+            <div onClick={()=> navigate('/Driven')} className={mapa[4][0]}></div>
             <div className={mapa[4][1]}></div>
             <div className={mapa[4][2]}></div>
-            <div className={mapa[4][3]}></div>
+            <div onClick={()=> navigate('/Habilidades')}  className={mapa[4][3]}></div>
             <div className={mapa[4][4]}></div>
             <div className={mapa[4][5]}></div>
             <div className={mapa[4][6]}></div>
             <div className={mapa[4][7]}></div>
             <div className={mapa[4][8]}></div>
-            <div className={mapa[4][9]}></div>
+            <div onClick={()=> navigate('/Curriculo')} className={mapa[4][9]}></div>
            
 
         </div>
