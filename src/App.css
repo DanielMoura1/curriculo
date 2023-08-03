@@ -242,6 +242,7 @@
 .textoContados{
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 .bodyverde{
   display: flex;
