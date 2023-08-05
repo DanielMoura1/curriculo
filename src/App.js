@@ -7,6 +7,7 @@ import Trajetoria from "./Trajetoria";
 import Curriculo from "./Curriculo";
 import Driven from "./Driven";
 import Habilidades from "./Habilidades";
+import TrajetoriaInicial from "./TrajetoriaIniciais";
 function App() {
   return (
     <div >
@@ -18,6 +19,7 @@ function App() {
       <Route path="/Curriculo" element={<Curriculo />} />
       <Route path="/Driven" element={<Driven />} />
       <Route path="/Habilidades" element={<Habilidades/>} />
+      <Route path="/TrajetoriaInicial" element={<TrajetoriaInicial/>} />
     </Routes>
     </BrowserRouter>
   </div>

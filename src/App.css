@@ -7,6 +7,37 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to top,#ff9956,#ffce59);
+  display: flex;
+  overflow-y:scroll;
+}
+.trajCaixa{
+  display: flex;
+  flex-direction:row;
+}
+.pessoal{
+  background-color: #2bb140;
+  width: 120px;
+  height: 200px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.trajImagem{
+  width: 90px;
+  height: 90px;
+}
+.trajImagemTexto{
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.trajTextoPagina{
+  width: 60vw;
 }
 .barraverde{
   display: flex;
