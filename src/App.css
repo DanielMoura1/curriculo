@@ -7,7 +7,17 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to top,#ff9956,#ffce59);
+ 
+}
+.bodyl2{
   display: flex;
+  align-items: center;
+ 
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top,#ff9956,#ffce59);
   overflow-y:scroll;
 }
 .video{
@@ -518,6 +528,7 @@
     width:280px;
     height:157.5px;
   }
+
   .trajTextoPagina{
     width: 80vw;
   }

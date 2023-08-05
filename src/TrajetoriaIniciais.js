@@ -5,10 +5,13 @@ export default function Trajetoria(){
         navigate("/")
     }
     return( <> 
-        <div className='bodyl'>
+        <div className='bodyl2'>
+            
             <h1>trajetória de vida</h1>
             <div className="trajTextoPagina">
-            <p>Minha jornada na programação teve início durante a faculdade, quando fui apresentado à disciplina de Introdução ao Processamento de Dados (IPD), onde tive meu primeiro contato com a linguagem Python. Contudo, mal tive tempo de mergulhar nesse mundo novo, pois uma semana após o início das aulas, a pandemia nos forçou a um isolamento repentino e a faculdade fechou suas portas, interrompendo abruptamente nossa rotina acadêmica. Somente no final de 2020, as aulas online foram retomadas, mas isso não me impediu de buscar conhecimento por conta própria, principalmente na área que mais me encantou: Python.
+            <p>Minha jornada na programação teve início durante a faculdade, quando fui apresentado à disciplina de Introdução ao Processamento de Dados (IPD), onde
+            </p>    
+            <p> tive meu primeiro contato com a linguagem Python. Contudo, mal tive tempo de mergulhar nesse mundo novo, pois uma semana após o início das aulas, a pandemia nos forçou a um isolamento repentino e a faculdade fechou suas portas, interrompendo abruptamente nossa rotina acadêmica. Somente no final de 2020, as aulas online foram retomadas, mas isso não me impediu de buscar conhecimento por conta própria, principalmente na área que mais me encantou: Python.
 
                 Ao explorar a linguagem, fui conquistando pequenas vitórias por meio de projetos pessoais que me desafiavam a aprofundar meus conhecimentos. Porém, essa busca incessante por aprendizado logo me levou a questionar os limites da programação. Decidi então ampliar meus horizontes e me aventurar em outras linguagens e paradigmas.
 
