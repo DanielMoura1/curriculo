@@ -10,6 +10,10 @@
   display: flex;
   overflow-y:scroll;
 }
+.video{
+  width:560px;
+  height:315px;
+}
 .trajCaixa{
   display: flex;
   flex-direction:row;
@@ -510,6 +514,10 @@
   
 }
 @media (max-width: 600px) {
+  .video{
+    width:280px;
+    height:157.5px;
+  }
  
   .boxContatos{
     display: flex;

@@ -15,7 +15,7 @@ export default function Trajetoria(){
                 Foi assim que, ao ingressar no Grupo de Foguetes do Rio de Janeiro (GFRJ), um estimulante grupo estudantil na Universidade do Estado do Rio de Janeiro (UERJ), fui exposto ao universo da aviónica e aos desafios de programar os arduínos embarcados nos foguetes, utilizando a linguagem C++, Para para passar no processo seletivo do GFRJ, decidi criar um jogo na Unity utilizando C# como forma de demonstrar meu comprometimento e habilidades.</p>
             </div>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/whROOdWCsI4" frameborder="0" allowfullscreen></iframe>
+            <iframe className="video" src="https://www.youtube.com/embed/whROOdWCsI4" frameborder="0" allowfullscreen></iframe>
             <button onClick={()=>navigate("/Trajetoria")}>voltar</button>
            <div className="trajTextoPagina">
             <p>A paixão pela programação floresceu de tal maneira que senti a necessidade de redirecionar minha trajetória. Decidi, então, interromper temporariamente meus estudos universitários e me dedicar integralmente a cursos que me permitissem mergulhar ainda mais fundo nesse fascinante mundo. Minha escolha foi a Driven, onde participei de um abrangente curso Full Stack de Desenvolvimento Web.
