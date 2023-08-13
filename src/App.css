@@ -20,6 +20,11 @@
   background-image: linear-gradient(to top,#ff9956,#ffce59);
   overflow-y:scroll;
 }
+.botaoDeVoltarTraj{
+  width: 100px;
+  height: 30px;
+  margin-top: 10px;
+}
 .video{
   width:560px;
   height:315px;
@@ -530,7 +535,7 @@
   }
 
   .trajTextoPagina{
-    width: 80vw;
+    width: 95vw;
   }
   .boxContatos{
     display: flex;

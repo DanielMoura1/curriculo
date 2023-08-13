@@ -7,7 +7,7 @@ export default function Trajetoria(){
     return( <> 
         <div className='bodyl2'>
             
-            <h1>trajetória de vida</h1>
+            <h1>Trajetória De Vida</h1>
             <div className="trajTextoPagina">
             <p>Minha jornada na programação teve início durante a faculdade, quando fui apresentado à disciplina de Introdução ao Processamento de Dados (IPD), onde
             </p>    
@@ -19,7 +19,7 @@ export default function Trajetoria(){
             </div>
 
             <iframe className="video" src="https://www.youtube.com/embed/whROOdWCsI4" frameborder="0" allowfullscreen></iframe>
-            <button onClick={()=>navigate("/Trajetoria")}>voltar</button>
+            <button  className='botaoDeVoltarTraj' onClick={()=>navigate("/Trajetoria")}>VOLTAR</button>
            <div className="trajTextoPagina">
             <p>A paixão pela programação floresceu de tal maneira que senti a necessidade de redirecionar minha trajetória. Decidi, então, interromper temporariamente meus estudos universitários e me dedicar integralmente a cursos que me permitissem mergulhar ainda mais fundo nesse fascinante mundo. Minha escolha foi a Driven, onde participei de um abrangente curso Full Stack de Desenvolvimento Web.
 
